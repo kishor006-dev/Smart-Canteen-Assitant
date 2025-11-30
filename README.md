@@ -49,6 +49,71 @@ Smart-Canteen-AI/
 ---
 
 ## Backend Setup
+**mongo db installation**
+🔧 1️⃣ Install MongoDB
+
+Your application uses MongoDB as the backend database.
+Install it using the instructions below depending on your OS.
+
+🪟 Windows Installation
+
+Search and download MongoDB Community Server
+
+Search keyword: "MongoDB Community Server Download"
+
+Run the installer and select:
+
+✔ Complete Install
+
+✔ Install MongoDB as a Service
+
+✔ Include MongoDB Compass (optional but recommended)
+
+After installation, MongoDB should run automatically.
+
+To manually start it, open Command Prompt (Admin):
+
+  net start MongoDB
+
+Verify MongoDB is working:
+
+  mongosh
+
+If you see something like:
+
+  test>
+
+Then MongoDB is successfully installed 🎉
+
+**Linux(Ubuntu/Debian) Installation**
+
+Run the following commands:
+
+  sudo apt update
+  sudo apt install -y mongodb
+
+
+Start the service:
+
+  sudo systemctl start mongodb
+
+
+Enable auto-start:
+
+  sudo systemctl enable mongodb
+
+
+Verify MongoDB is running:
+
+   sudo systemctl status mongodb
+
+Test the database connection:
+
+   mongosh
+
+If you see a > prompt, MongoDB is ready
+
+
 1. Create and activate a virtual environment:
 
 python -m venv venv
@@ -117,9 +182,6 @@ setx GROQ_API_KEY "your_api_key_here"
 * Improve AI recommendations with personalized history.
 
 
-## License
-
-MIT License
 
 
 

@@ -51,7 +51,6 @@ Smart-Canteen-AI/
 ## Backend Setup
 1. Create and activate a virtual environment:
 
-``bash
 python -m venv venv
 # Linux/Mac
 source venv/bin/activate

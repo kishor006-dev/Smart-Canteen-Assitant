@@ -23,22 +23,19 @@ AI-based Smart Canteen Assistant Project
 Smart-Canteen-AI/
 │
 ├─ backend/
-│   ├─ main.py             # FastAPI backend
-│   └─ requirements.txt    # Python dependencies
-│
+    ├─ main.py             # FastAPI backend
+    └─ requirements.txt    # Python dependencies
 ├─ student/
-│   ├─ student.html        # Student frontend
-│   ├─ student.css
-│   └─ student.js
-│
+    ├─ student.html        # Student frontend
+    ├─ student.css
+    └─ student.js
 ├─ staff/
-│   ├─ staff.html          # Staff frontend
-│   ├─ staff.css
-│   └─ staff.js
-│
+    ├─ staff.html          # Staff frontend
+    ├─ staff.css
+    └─ staff.js
 ├─ assets/
-│   ├─ canteen.jpg         # Student background image
-│   └─ staffside.jpg       # Staff background image
+    ├─ canteen.jpg         # Student background image
+    └─ staffside.jpg       # Staff background image
 │
 └─ README.md
 

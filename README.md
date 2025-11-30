@@ -71,15 +71,15 @@ Run the installer and select:
 
 After installation, MongoDB should run automatically.
 
-To manually start it, open Command Prompt (Admin):
+**To manually start it, open Command Prompt (Admin):**
 
   net start MongoDB
 
-Verify MongoDB is working:
+**Verify MongoDB is working:**
 
   mongosh
 
-If you see something like:
+**If you see something like:**
 
   test>
 
@@ -87,31 +87,31 @@ Then MongoDB is successfully installed 🎉
 
 **Linux(Ubuntu/Debian) Installation**
 
-Run the following commands:
+**Run the following commands:**
 
   sudo apt update
   sudo apt install -y mongodb
 
 
-Start the service:
+**Start the service:**
 
   sudo systemctl start mongodb
 
 
-Enable auto-start:
+**Enable auto-start:**
 
   sudo systemctl enable mongodb
 
 
-Verify MongoDB is running:
+**Verify MongoDB is running:**
 
    sudo systemctl status mongodb
 
-Test the database connection:
+**Test the database connection:**
 
    mongosh
 
-If you see a > prompt, MongoDB is ready
+**If you see a > prompt, MongoDB is ready**
 
 
 1. Create and activate a virtual environment:

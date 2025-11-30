@@ -44,22 +44,18 @@ Smart-Canteen-AI/
 - Python 3.10+  
 - Node.js (optional, for running frontend via server)  
 - MongoDB running locally on default port `27017`  
-- Groq API Key for AI functionality (set as environment variable `GROQ_API_KEY`)  
+- Groq API Key for AI functionality (set as environment variable `GROQ_API_KEY`)
+- VS code installation and add extension live server and any required
 
 ---
 
 ## Database setup
-Here is a clean, step-by-step **Local MongoDB Installation Guide** formatted for your README — covering **Windows, Mac, and Linux**:
 
----
+
 
 ## 🗄️ Local MongoDB Installation Guide
 
-If you prefer running MongoDB locally instead of using MongoDB Atlas, follow the steps based on your operating system.
 
----
-
-### 🪟 **Windows Installation**
 
 #### 1️⃣ Download MongoDB Community Server
 
@@ -71,6 +67,9 @@ Download from the official website and run the installer.
 ✔ **Complete Installation**
 ✔ **Install MongoDB as a Service**
 ✔ **Include MongoDB Compass (optional)**
+
+
+### 🪟 **Windows Installation**
 
 #### 3️⃣ Start MongoDB Service (if not running automatically):
 
@@ -176,25 +175,25 @@ npm install -g mongosh
 # Windows
    venv\Scripts\activate
    
-2.move to path
+**2.move to path**
 
    cd Smart-Canteen-Assistant 
 
-3. Install dependencies:
+**3.Install dependencies:**
 
    pip install -r backend/requirements.txt
 
-4.set a API key
+**4.set a API key**
 
    see environment variables below
 
-5.Start the backend server:
+**5.Start the backend server:**
 
    uvicorn backend.main:app --reload
 
 ## Frontend Setup
 
-Open `student/student.html` and `staff/staff.html` in your browser.
+Open `student/student.html` and `staff/staff.html` in your browser through live server in visual code(VS code)
 
 Ensure backend server is running at `http://localhost:8000` for API calls.
 

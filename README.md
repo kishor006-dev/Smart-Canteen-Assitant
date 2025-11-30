@@ -21,10 +21,9 @@ AI-based Smart Canteen Assistant Project
 ## Project Structure
 
 Smart-Canteen-AI/
-│
-├─ backend/
-    ├─ main.py             # FastAPI backend
-    └─ requirements.txt    # Python dependencies
+  backend/
+    -> main.py             # FastAPI backend
+    -> requirements.txt    # Python dependencies
 ├─ student/
     ├─ student.html        # Student frontend
     ├─ student.css

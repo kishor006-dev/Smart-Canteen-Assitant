@@ -56,12 +56,19 @@ python -m venv venv
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
+2.move to path
 
-2. Install dependencies:
+cd Smart-Canteen-Assistant 
+
+3. Install dependencies:
 
 pip install -r backend/requirements.txt
 
-3. Start the backend server:
+4.set a API key
+
+see environment variables below
+
+5. Start the backend server:
 
 uvicorn backend.main:app --reload
 

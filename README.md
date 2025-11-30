@@ -55,8 +55,6 @@ Smart-Canteen-AI/
 Your application uses MongoDB as the backend database.
 Install it using the instructions below depending on your OS.
 
-🪟 Windows Installation
-
 Search and download MongoDB Community Server
 
 Search keyword: "MongoDB Community Server Download"
@@ -70,6 +68,8 @@ Run the installer and select:
 ✔ Include MongoDB Compass (optional but recommended)
 
 After installation, MongoDB should run automatically.
+
+**🪟 Windows Installation**
 
 **To manually start it, open Command Prompt (Admin):**
 

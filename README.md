@@ -3,9 +3,7 @@ AI-based Smart Canteen Assistant Project
 # 🍴 Smart Canteen AI Assistant
 **Subtitle:** AI-powered Smart Canteen Assistant for students and staff with real-time chat, menu management, and order tracking.  
 
-![Thumbnail](assets/canteen.jpg)  
 
----
 
 ## Overview
 **Smart Canteen AI** is a web-based application that allows students to interact with a virtual canteen assistant powered by AI (Groq + LLaMA 3.1 70B). Students can view the menu, place orders, receive recommendations, and manage order history. Staff can manage the menu, set daily specials, and track pending orders.

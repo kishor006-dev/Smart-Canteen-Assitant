@@ -4,7 +4,7 @@ body {
     background:#f3f4f6;
     margin: 0;
     padding: 0;
-    background-image:url("canteen.jpg");
+    background-image:url("assests\canteen.jpg");
 }
 .header1{
     text-align: center;
@@ -250,3 +250,4 @@ li {
         flex-direction: column;
     }
 }
+
